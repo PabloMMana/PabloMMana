@@ -1,0 +1,349 @@
+[Root]
+Most Recent Package=setupcadcli
+
+
+[Package|SetupCorCli|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Anexos\CadastoCli\Package
+
+[Package|SetupCorCli|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SetupCorCli|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SetupCorCli|Files Found]
+
+[Package|SetupCorCli|Files Released]
+
+[Package|SetupCorCli|Missing Dependency Information]
+C:\Anexos\CadastoCli\SQLEXPR32_x86_PTB.exe=
+
+[Package|SetupCorCli|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\msstdfmt.dll=
+
+[Package|SetupCorCli|Files Added]
+C:\Anexos\CadastoCli\SQLEXPR32_x86_PTB.exe=
+C:\Anexos\CadastoCli\CORCLI.mdf=
+
+[Package|SetupCorCli|Files Removed]
+
+[Package|SetupCorCli|Files In Project]
+C:\Anexos\CadastoCli\CadastroCli.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\msmask32.ocx=Yes
+C:\Windows\SysWOW64\MShflxgd.ocx=Yes
+C:\Windows\SysWOW64\msstdfmt.dll=Yes
+C:\Windows\SysWOW64\MSFlxGrd.ocx=Yes
+C:\Program Files (x86)\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Windows\SysWOW64\MSBind.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Anexos\CadastoCli\SQLEXPR32_x86_PTB.exe=Yes
+C:\Anexos\CadastoCli\CORCLI.mdf=Yes
+
+[Package|SetupCorCli|Configure Registry Files]
+Applicable=No
+
+[Package|SetupCorCli|Configure Remote Servers]
+Applicable=No
+
+[Package|SetupCorCli|Install Locations]
+C:\Anexos\CadastoCli\CadastroCli.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\msmask32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\MShflxgd.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\msstdfmt.dll=$(WinSysPath)
+C:\Windows\SysWOW64\MSFlxGrd.ocx=$(WinSysPath)
+C:\Program Files (x86)\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Windows\SysWOW64\MSBind.dll=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Anexos\CadastoCli\SQLEXPR32_x86_PTB.exe=$(AppPath)
+C:\Anexos\CadastoCli\CORCLI.mdf=$(AppPath)
+
+[Package|SetupCorCli|Configure Shared Files]
+Applicable=Yes
+C:\Anexos\CadastoCli\CadastroCli.exe=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Anexos\CadastoCli\SQLEXPR32_x86_PTB.exe=Yes
+C:\Anexos\CadastoCli\CORCLI.mdf=Yes
+
+[Package|SetupCorCli|Distribution]
+Type=single
+Size=
+Title=SetupCad
+
+[Package|SetupCorCli|IconGroups]
+Group0=SetupCad
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|SetupCorCli|SetupCad]
+Icon1=CadastroCli.EXE
+Title1=SetupCad
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|SetupCorCli|Package]
+PackageFolder=C:\Anexos\CadastoCli\Package
+ProjectFolder=C:\Anexos\CadastoCli
+ServerSideCab=
+File1=C:\Anexos\CadastoCli\Package\setup.exe
+File2=C:\Anexos\CadastoCli\Package\Setup.Lst
+File3=C:\Anexos\CadastoCli\Package\CadastroCli.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|CadCli|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Anexos\SQL2008
+
+[Package|CadCli|Configure DAO ISAMs]
+Applicable=No
+
+[Package|CadCli|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|CadCli|Files Found]
+
+[Package|CadCli|Files Released]
+CORCLI.mdf=
+
+[Package|CadCli|Missing Dependency Information]
+C:\Anexos\CadastoCli\SQLEXPR32_x86_PTB.exe=
+
+[Package|CadCli|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\msstdfmt.dll=
+
+[Package|CadCli|Files Added]
+c:\anexos\cadastocli\sqlexpr32_x86_ptb.exe=
+corcli.mdf=
+
+[Package|CadCli|Files Removed]
+
+[Package|CadCli|Files In Project]
+C:\Anexos\CadastoCli\CadastroCli.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\msmask32.ocx=Yes
+C:\Windows\SysWOW64\MShflxgd.ocx=Yes
+C:\Windows\SysWOW64\msstdfmt.dll=Yes
+C:\Windows\SysWOW64\MSFlxGrd.ocx=Yes
+C:\Program Files (x86)\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Windows\SysWOW64\MSBind.dll=Yes
+C:\Anexos\CadastoCli\SQLEXPR32_x86_PTB.exe=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado15.dll=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado25.tlb=Yes
+
+[Package|CadCli|Configure Registry Files]
+Applicable=No
+
+[Package|CadCli|Configure Remote Servers]
+Applicable=No
+
+[Package|CadCli|Install Locations]
+C:\Anexos\CadastoCli\CadastroCli.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\msmask32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\MShflxgd.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\msstdfmt.dll=$(WinSysPath)
+C:\Windows\SysWOW64\MSFlxGrd.ocx=$(WinSysPath)
+C:\Program Files (x86)\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Windows\SysWOW64\MSBind.dll=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Anexos\CadastoCli\SQLEXPR32_x86_PTB.exe=$(AppPath)
+C:\Anexos\CadastoCli\CORCLI.mdf=$(AppPath)
+C:\Program Files (x86)\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\Program Files (x86)\Common Files\System\ado\msado25.tlb=$(CommonFilesSys)\ADO
+
+[Package|CadCli|Configure Shared Files]
+Applicable=Yes
+C:\Anexos\CadastoCli\CadastroCli.exe=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Anexos\CadastoCli\SQLEXPR32_x86_PTB.exe=Yes
+C:\Anexos\CadastoCli\CORCLI.mdf=Yes
+
+[Package|CadCli|Distribution]
+Type=single
+Size=
+Title=SetupCad
+
+[Package|CadCli|IconGroups]
+Group0=SetupCad
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|CadCli|SetupCad]
+Icon1=CadastroCli.EXE
+Title1=SetupCad
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|CadCli|DepFile]
+DepCabFile=CadastroCli.CAB
+DepCabRun=CadastroCli.INF
+
+[Package|CadCli|Package]
+PackageFolder=C:\Anexos\SQL2008
+ProjectFolder=C:\Anexos\CadastoCli
+ServerSideCab=
+File1=C:\Anexos\SQL2008\CadastroCli.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|setupcadcli|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Anexos\CadastoCli
+
+[Package|setupcadcli|Configure DAO ISAMs]
+Applicable=No
+
+[Package|setupcadcli|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|setupcadcli|Files Found]
+
+[Package|setupcadcli|Files Released]
+CORCLI.mdf=
+sqlexpr32_x86_ptb.exe=
+
+[Package|setupcadcli|Missing Dependency Information]
+C:\Anexos\CadastoCli\SQLEXPR32_x86_PTB.exe=
+C:\Anexos\SQLEXPR_BRZ.EXE=
+
+[Package|setupcadcli|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\msstdfmt.dll=
+
+[Package|setupcadcli|Files Added]
+c:\anexos\sqlexpr_brz.exe=
+C:\Anexos\SCRIPT.sql=
+
+[Package|setupcadcli|Files Removed]
+
+[Package|setupcadcli|Files In Project]
+C:\Anexos\CadastoCli\CadastroCli.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\msmask32.ocx=Yes
+C:\Windows\SysWOW64\MShflxgd.ocx=Yes
+C:\Windows\SysWOW64\msstdfmt.dll=Yes
+C:\Windows\SysWOW64\MSFlxGrd.ocx=Yes
+C:\Program Files (x86)\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Windows\SysWOW64\MSBind.dll=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Anexos\SQLEXPR_BRZ.EXE=Yes
+C:\Anexos\SCRIPT.sql=Yes
+
+[Package|setupcadcli|Configure Registry Files]
+Applicable=No
+
+[Package|setupcadcli|Configure Remote Servers]
+Applicable=No
+
+[Package|setupcadcli|Install Locations]
+C:\Anexos\CadastoCli\CadastroCli.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\msmask32.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\MShflxgd.ocx=$(WinSysPath)
+C:\Windows\SysWOW64\msstdfmt.dll=$(WinSysPath)
+C:\Windows\SysWOW64\MSFlxGrd.ocx=$(WinSysPath)
+C:\Program Files (x86)\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Windows\SysWOW64\MSBind.dll=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Anexos\CadastoCli\SQLEXPR32_x86_PTB.exe=$(AppPath)
+C:\Anexos\CadastoCli\CORCLI.mdf=$(AppPath)
+C:\Program Files (x86)\Common Files\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\Program Files (x86)\Common Files\System\ado\msado25.tlb=$(CommonFilesSys)\ADO
+C:\Anexos\SQLEXPR_BRZ.EXE=$(AppPath)
+C:\Anexos\SCRIPT.sql=$(AppPath)
+
+[Package|setupcadcli|Configure Shared Files]
+Applicable=Yes
+C:\Anexos\CadastoCli\CadastroCli.exe=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Anexos\CadastoCli\SQLEXPR32_x86_PTB.exe=Yes
+C:\Anexos\CadastoCli\CORCLI.mdf=Yes
+C:\Anexos\SQLEXPR_BRZ.EXE=Yes
+C:\Anexos\SCRIPT.sql=Yes
+
+[Package|setupcadcli|Distribution]
+Type=single
+Size=
+Title=SetupCadCli
+
+[Package|setupcadcli|DepFile]
+DepCabFile=CadastroCli.CAB
+DepCabRun=CadastroCli.INF
+
+[Package|setupcadcli|Package]
+PackageFolder=C:\Anexos\CadastoCli
+ProjectFolder=C:\Anexos\CadastoCli
+ServerSideCab=
+File1=C:\Anexos\CadastoCli\setup.exe
+File2=C:\Anexos\CadastoCli\Setup.Lst
+File3=C:\Anexos\CadastoCli\CadastroCli.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|setupcadcli|IconGroups]
+Group0=SetupCad
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|setupcadcli|SetupCad]
+Icon1=CadastroCli.EXE
+Title1=SetupCad
+StartIn1=$(AppPath)
+Key1=Icon1

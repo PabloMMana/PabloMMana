@@ -1,0 +1,11 @@
+
+
+Para instalar o projeto
+
+1-Execute o Setup.exe
+
+2-Depois de instalado rodar a instalação do SQLSERVER
+
+Na pasta Support rodar o SQLEXPR_BRZ.EXE
+
+depois de instalado o SQL rodar o SCRIPT.SQL 
